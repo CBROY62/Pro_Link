@@ -12,12 +12,8 @@ export default function HeroSearchBanner() {
       </p>
 
       <div className="search-container">
-        <input
-          type="text"
-          placeholder="Search for Major And Minor Projects"
-          className="search-input"
-        />
-        <Search className="search-icon" />
+        <marquee className = " marqueetage"> Self-learning projects built to improve my skills in React, JavaScript, and design—ranging from minor tasks to major applications.
+</marquee>
       </div>
     </div>
   );

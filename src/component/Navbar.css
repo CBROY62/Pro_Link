@@ -57,3 +57,10 @@
   transform: translateY(-50%);
   color: #9ca3af; 
 }
+
+
+.marqueetage{
+  color: rgb(211, 200, 38);
+  font-size: 30px;
+  font-weight: 500;
+}

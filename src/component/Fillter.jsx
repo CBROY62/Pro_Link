@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Fillter.css';
-import projects from './projectData'; 
+import projects from './projectData';
 
 function ProjectCard({ title, description, image, buttonLabel, link }) {
   return (
@@ -19,14 +19,34 @@ function ProjectCard({ title, description, image, buttonLabel, link }) {
 
 export default function ProjectFilter() {
   const [filter, setFilter] = useState('all');
+  const [searchTerm, setSearchTerm] = useState('');
 
-  const filteredProjects =
-    filter === 'all' ? projects : projects.filter((proj) => proj.type === filter);
+  const filteredProjects = projects.filter((proj) => {
+    const matchesType = filter === 'all' || proj.type === filter;
+    const matchesSearch = proj.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                          proj.description.toLowerCase().includes(searchTerm.toLowerCase());
+    return matchesType && matchesSearch;
+  });
 
   return (
     <div className="project-filter-container">
+      {/* Search Bar */}
+      <div className="search-input-wrapper">
+  <input
+    type="text"
+    placeholder="Search projects..."
+    value={searchTerm}
+    onChange={(e) => setSearchTerm(e.target.value)}
+    className="search-input"
+  />
+  <span className="search-icon">🔍</span> 
+</div>
+
       <h2 className="project-filter-header">Project Section</h2>
 
+      
+
+      {/* Filter Buttons */}
       <div className="filter-buttons">
         {['all', 'minor', 'mid', 'major'].map((type) => (
           <button
@@ -39,6 +59,7 @@ export default function ProjectFilter() {
         ))}
       </div>
 
+      {/* Projects Grid */}
       <div className="project-grid">
         {filteredProjects.map((project) => (
           <ProjectCard
