@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import './Fillter.css';
-import projects from './projectData';
+import React, { useState } from "react";
+import "./Fillter.css";
+import projects from "./projectData";
 
 function ProjectCard({ title, description, image, buttonLabel, link }) {
   return (
@@ -18,13 +18,14 @@ function ProjectCard({ title, description, image, buttonLabel, link }) {
 }
 
 export default function ProjectFilter() {
-  const [filter, setFilter] = useState('all');
-  const [searchTerm, setSearchTerm] = useState('');
+  const [filter, setFilter] = useState("all");
+  const [searchTerm, setSearchTerm] = useState("");
 
   const filteredProjects = projects.filter((proj) => {
-    const matchesType = filter === 'all' || proj.type === filter;
-    const matchesSearch = proj.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                          proj.description.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesType = filter === "all" || proj.type === filter;
+    const matchesSearch =
+      proj.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      proj.description.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesType && matchesSearch;
   });
 
@@ -32,27 +33,32 @@ export default function ProjectFilter() {
     <div className="project-filter-container">
       {/* Search Bar */}
       <div className="search-input-wrapper">
-  <input
-    type="text"
-    placeholder="Search projects..."
-    value={searchTerm}
-    onChange={(e) => setSearchTerm(e.target.value)}
-    className="search-input"
-  />
-  <span className="search-icon">🔍</span> 
-</div>
-
-      <h2 className="project-filter-header">Project Section</h2>
-
-      
+        <input
+          type="text"
+          placeholder="Search projects..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="search-input"
+        />
+        <span className="search-icon">🔍</span>
+      </div>
+      <h1 className="project-filter-header">Project Section</h1>
+      <marquee className="project-filter-heade">
+        <span className="span1">HTML</span>..............
+        <span className="span2">CSS</span>...............
+        <span className="span3">Javascript</span>..............
+        <span className="span4">Node.js</span>..............
+        <span className="span5">Mongodb</span>..............
+        <span className="span6">with Framwork .&. Library</span>
+      </marquee>
 
       {/* Filter Buttons */}
       <div className="filter-buttons">
-        {['all', 'minor', 'mid', 'major'].map((type) => (
+        {["all", "minor", "mid", "major"].map((type) => (
           <button
             key={type}
             onClick={() => setFilter(type)}
-            className={`filter-button ${filter === type ? 'active' : ''}`}
+            className={`filter-button ${filter === type ? "active" : ""}`}
           >
             {type.charAt(0).toUpperCase() + type.slice(1)} Projects
           </button>

@@ -9,6 +9,7 @@
   text-align: center;
   font-size: 2em;
   margin-bottom: 20px;
+  color: #007bff;
 }
 
 .filter-buttons {
@@ -185,4 +186,39 @@
   font-size: 18px;
   color: #666;
   pointer-events: none;
+}
+
+.project-filter-heade{
+  margin-bottom: 50px;
+}
+.span1{
+  color: rgb(220, 12, 224);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.span2{
+  color: rgb(193, 60, 60);
+  font-size: 20px;
+  font-weight: 500;
+}
+.span3{
+  color: rgb(6, 102, 246);
+  font-size: 20px;
+  font-weight: 500;
+}
+.span4{
+  color: rgb(26, 228, 15);
+  font-size: 20px;
+  font-weight: 500;
+}
+.span5{
+  color: rgb(234, 9, 178);
+  font-size: 20px;
+  font-weight: 500;
+}
+.span6{
+  color: rgb(12, 222, 237);
+  font-size: 20px;
+  font-weight: 500;
 }
