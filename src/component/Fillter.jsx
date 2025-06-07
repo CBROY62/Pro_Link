@@ -44,12 +44,12 @@ export default function ProjectFilter() {
       </div>
       <h1 className="project-filter-header">Project Section</h1>
       <marquee className="project-filter-heade">
-        <span className="span1">HTML</span>..............
-        <span className="span2">CSS</span>...............
-        <span className="span3">Javascript</span>..............
-        <span className="span4">Node.js</span>..............
-        <span className="span5">Mongodb</span>..............
-        <span className="span6">with Framwork .&. Library</span>
+        <span className="span1">HTML</span> <span className="span12">..............</span>
+        <span className="span2">CSS</span><span className="span12">..............</span>
+        <span className="span3">Javascript</span><span className="span12">..............</span>
+        <span className="span4">Node.js</span><span className="span12">..............</span>
+        <span className="span5">Mongodb</span><span className="span12">..............</span>
+        <span className="span6">with Framework .&. Library</span>
       </marquee>
 
       {/* Filter Buttons */}
