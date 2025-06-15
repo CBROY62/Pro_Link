@@ -1,5 +1,5 @@
 
-import './Footer.css';
+import './Footer.css'
 import {
   FaMapMarkerAlt,
   FaPhone,
@@ -49,4 +49,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer
