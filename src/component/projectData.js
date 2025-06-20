@@ -122,6 +122,24 @@ const projects = [
     buttonLabel: 'Tic Tac Toe Game Web.. visit',
     link: 'https://to-do-list-jade-beta.vercel.app/',
   },
+  {
+    id: 17,
+    title: 'Student Marks Calculator Web App.',
+    description: 'A simple web app developed independently to calculate total marks, percentage, and division from five subjects: Hindi, English, Maths, Physics, and Chemistry. Clean UI with instant results.',
+    type: 'minor',
+    image: 'https://i.ytimg.com/vi/YGDDoad8s9g/sddefault.jpg',
+    buttonLabel: 'Student Marks Calculator Web App visit',
+    link: 'https://superlative-tapioca-8c8d16.netlify.app/',
+  },
+  {
+    id: 18,
+    title: 'Radius Value Calculator',
+    description: 'A self-developed tool to calculate the radius value from user input. Simple interface with input field and instant calculation, ideal for basic geometry-related learning or practice.',
+    type: 'minor',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSCEx62LzIJK5GbhE4dONvCy5S_yyh7u2_HA&s',
+    buttonLabel: 'Radius Value Calculator',
+    link: 'https://roaring-mochi-942840.netlify.app/',
+  },
 ];
 
 export default projects;
