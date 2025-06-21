@@ -140,6 +140,15 @@ const projects = [
     buttonLabel: 'Radius Value Calculator',
     link: 'https://roaring-mochi-942840.netlify.app/',
   },
+  {
+    id: 19,
+    title: 'Contact Management App (CRUD)',
+    description: 'A simple contact management application allowing users to add, edit, save, and delete contact entries with name, email, and phone details using an intuitive interface.',
+    type: 'minor',
+    image: 'https://www.sourcecodester.com/sites/default/files/images/nurhodelta_17/crud_ss_0.png',
+    buttonLabel: 'Contact Management App (CRUD)',
+    link: 'https://heroic-cupcake-bd0fb0.netlify.app/',
+  },
 ];
 
 export default projects;
