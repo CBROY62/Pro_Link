@@ -149,6 +149,15 @@ const projects = [
     buttonLabel: 'Contact Management App (CRUD)',
     link: 'https://heroic-cupcake-bd0fb0.netlify.app/',
   },
+   {
+    id: 19,
+    title: 'Contact(CRUD)',
+    description: 'A simple contact management application allowing users to add, edit, save, and delete contact entries with name, email, and phone details using an intuitive interface.',
+    type: 'minor',
+    image: 'https://www.sourcecodester.com/sites/default/files/images/nurhodelta_17/angular_crud_uirouter.png',
+    buttonLabel: '(CRUD) view',
+    link: 'https://inspiring-twilight-ed1390.netlify.app/',
+  },
 ];
 
 export default projects;
