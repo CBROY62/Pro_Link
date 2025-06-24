@@ -9,7 +9,7 @@ const projects = [
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRljSQjAiqdJaKADxUVHIvI23rzMp-uFacU7g&s',
    demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/Face_Recognition_System-',
     link: 'https://face-recognition-system-pied.vercel.app/',
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1SUtI0BaKx9OmZtF-lJXB3JhZhZyEwexO8Q&s',
      demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/RKSD-COLLEGE',
     link: 'https://rksdpharma.vercel.app/',
   },
 
@@ -33,7 +33,7 @@ const projects = [
     image: 'https://yt3.googleusercontent.com/0buocGKxLKmCMxIO1CjKO1E91bC-thosw5xUkm32x8trmv5IJBq5o2S8Q7rsb6QaUUGwuOFN=s900-c-k-c0x00ffffff-no-rj',
      demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/UPSC_Web_page',
     link: 'https://683a8814bc5b926034b1d6f3--bucolic-kashata-ec6f2a.netlify.app/',
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYDAg3jyR7dcEpkacgR2cEbdu_Z6VEN0TmsQ&s',
      demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/Flipkart',
     link: 'https://683a8a6df028c826c7bf137b--funny-kleicha-d3a3ca.netlify.app/',
   },
   {
@@ -55,7 +55,7 @@ const projects = [
     image: 'https://sangvish.com/wp-content/uploads/2021/10/Buy2Market-amazon-clone-script.png',
      demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/Amazon_Clone',
     link: 'https://683a8af3652ef60d2d940f1e--ornate-cascaron-1ccf88.netlify.app/',
   },
   {
@@ -66,7 +66,7 @@ const projects = [
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHnGEtETABTG0_6vKFBiMtnH7QvAocv-qIFg&s',
      demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/HRS_Web',
     link: 'https://683a8716bc5b925efbb1d696--magenta-manatee-b99fa4.netlify.app/',
   },
   {
@@ -77,7 +77,7 @@ const projects = [
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThQqhl_05O70oWJ5dJO783-l3sy5vgUVNUYQ&s',
      demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/My-Portfolio/tree/main/bhushan',
     link: 'https://face-recognition-system-z1rg.vercel.app/',
   },
 
@@ -156,7 +156,7 @@ const projects = [
     image: 'https://i.ytimg.com/vi/YGDDoad8s9g/sddefault.jpg',
     demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/JavaScript-100-Problem/tree/main/MarksCalculator',
     link: 'https://superlative-tapioca-8c8d16.netlify.app/',
   },
   {
@@ -167,7 +167,7 @@ const projects = [
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSCEx62LzIJK5GbhE4dONvCy5S_yyh7u2_HA&s',
      demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/JavaScript-100-Problem/tree/main/Radious',
     link: 'https://roaring-mochi-942840.netlify.app/',
   },
   {
@@ -178,7 +178,7 @@ const projects = [
     image: 'https://www.sourcecodester.com/sites/default/files/images/nurhodelta_17/crud_ss_0.png',
     demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/JavaScript-100-Problem/tree/main/CURD_Operation',
     link: 'https://heroic-cupcake-bd0fb0.netlify.app/',
   },
    {
@@ -190,7 +190,7 @@ const projects = [
     buttonLabel: 'Live Demo',
     link: 'https://inspiring-twilight-ed1390.netlify.app/',
     demoCodeLabel:'Sourse Code',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/JavaScript-100-Problem/tree/main/Click_Created_componets',
   },
 ];
 
