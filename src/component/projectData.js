@@ -182,7 +182,7 @@ const projects = [
     link: 'https://heroic-cupcake-bd0fb0.netlify.app/',
   },
    {
-    id: 19,
+    id: 20,
     title: 'Contact(CRUD)',
     description: 'A simple contact management application allowing users to add, edit, save, and delete contact entries with name, email, and phone details using an intuitive interface.',
     type: 'minor',
