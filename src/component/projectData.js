@@ -90,7 +90,7 @@ const projects = [
     image: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1673498174615/a9ff29fc-a3b2-400e-b159-8f1200085c44.jpeg',
     demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/ReactJs_Javascript/tree/main/TipCalculator/tipcalculator',
     link: 'https://react-js-javascript-9hua.vercel.app/',
   },
   {
@@ -101,7 +101,7 @@ const projects = [
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_u4yLGdy-KSdDHF2RrC99uiAYQB-p-zOD5Q&s',
      demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/Age_Counter',
     link: 'https://age-counter-two.vercel.app/',
   },
   {
@@ -112,7 +112,7 @@ const projects = [
     image: 'https://play-lh.googleusercontent.com/xoNQT2OJoDOtB-uBmzlya5z83A6dpS5eGS4AAOH48BBOP2aROaouKOB-eeVoh-xv8K4',
      demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/ReactJs_Javascript/tree/main/CounterApp',
     link: 'https://react-js-javascript-rqby.vercel.app/',
   },
   {
@@ -134,7 +134,7 @@ const projects = [
     image: 'https://lh3.googleusercontent.com/AL_WQZ1aze_yZin9FN4t624Qsl9n2CqRGGXogYdu6LnI2aASShx_ifvI3ees2W6TBXJ1MquMMqmG6RDMrEjnQR5Bsg=s1280-w1280-h800',
     demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/React-Tutorial/tree/main/Calculator/calculatorApp',
     link: 'https://683bd370f84796e51eb4c327--flourishing-muffin-272995.netlify.app/',
   },
   {
@@ -145,7 +145,7 @@ const projects = [
     image: '/images/tic_toc.png',
     demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
-    demoCodeLink: 'h',
+    demoCodeLink: 'https://github.com/CBROY62/To-Do-List/tree/main/tic_toc',
     link: 'https://to-do-list-jade-beta.vercel.app/',
   },
   {
