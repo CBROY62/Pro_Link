@@ -73,6 +73,7 @@
   margin-top: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-left: 10px;
 }
 
 .project-button:hover {

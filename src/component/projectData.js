@@ -137,7 +137,9 @@ const projects = [
     description: 'A self-developed tool to calculate the radius value from user input. Simple interface with input field and instant calculation, ideal for basic geometry-related learning or practice.',
     type: 'minor',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSCEx62LzIJK5GbhE4dONvCy5S_yyh7u2_HA&s',
-    buttonLabel: 'Radius Value Calculator',
+     demoCodeLabel:'Sourse Code',
+    buttonLabel: 'Live Demo',
+    demoCodeLink: 'h',
     link: 'https://roaring-mochi-942840.netlify.app/',
   },
   {
@@ -146,7 +148,9 @@ const projects = [
     description: 'A simple contact management application allowing users to add, edit, save, and delete contact entries with name, email, and phone details using an intuitive interface.',
     type: 'minor',
     image: 'https://www.sourcecodester.com/sites/default/files/images/nurhodelta_17/crud_ss_0.png',
-    buttonLabel: 'Contact Management App (CRUD)',
+    demoCodeLabel:'Sourse Code',
+    buttonLabel: 'Live Demo',
+    demoCodeLink: 'h',
     link: 'https://heroic-cupcake-bd0fb0.netlify.app/',
   },
    {
@@ -155,8 +159,10 @@ const projects = [
     description: 'A simple contact management application allowing users to add, edit, save, and delete contact entries with name, email, and phone details using an intuitive interface.',
     type: 'minor',
     image: 'https://www.sourcecodester.com/sites/default/files/images/nurhodelta_17/angular_crud_uirouter.png',
-    buttonLabel: '(CRUD) view',
+    buttonLabel: 'Live Demo',
     link: 'https://inspiring-twilight-ed1390.netlify.app/',
+    demoCodeLabel:'Sourse Code',
+    demoCodeLink: 'h',
   },
 ];
 

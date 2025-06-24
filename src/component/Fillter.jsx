@@ -2,18 +2,28 @@ import React, { useState } from "react";
 import "./Fillter.css";
 import projects from "./projectData";
 
-function ProjectCard({ title, description, image, buttonLabel, link }) {
+function ProjectCard({ title, description, image, buttonLabel, link,demoCodeLabel,demoCodeLink }) {
   return (
-    <div className="project-card">
-      {image && <img src={image} alt={title} className="project-image" />}
-      <h3>{title}</h3>
-      <p>{description}</p>
-      {buttonLabel && link && (
-        <a href={link} target="_blank" rel="noopener noreferrer">
-          <button className="project-button">{buttonLabel}</button>
-        </a>
-      )}
-    </div>
+   <div className="project-card">
+  {image && <img src={image} alt={title} className="project-image" />}
+  <h3>{title}</h3>
+  <p>{description}</p>
+
+  {/* Existing button */}
+  {(buttonLabel && link) && (
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      <button className="project-button">{buttonLabel}</button>
+    </a>
+  )}
+
+  {/* New Demo Code button */}
+  {(demoCodeLabel && demoCodeLink) && (
+    <a href={demoCodeLink} target="_blank" rel="noopener noreferrer">
+      <button className="project-button">{demoCodeLabel}</button>
+    </a>
+  )}
+</div>
+
   );
 }
 
@@ -75,6 +85,8 @@ export default function ProjectFilter() {
             image={project.image}
             buttonLabel={project.buttonLabel}
             link={project.link}
+            demoCodeLabel={project.demoCodeLabel}
+            demoCodeLink= { project.demoCodeLink }
           />
         ))}
       </div>
