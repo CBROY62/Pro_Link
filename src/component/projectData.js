@@ -192,6 +192,17 @@ const projects = [
     demoCodeLabel:'Sourse Code',
     demoCodeLink: 'https://github.com/CBROY62/JavaScript-100-Problem/tree/main/Click_Created_componets',
   },
+  {
+    id: 21,
+    title: 'SmartCalc',
+    description:'Boost productivity with SmartCalc Pro – a modern calculator designed for clarity, efficiency, and self-development. Perfect for learning, focus training, and daily analytical thinking tasks.',
+    type: 'minor',
+    image: '/images/calculator.png',
+    buttonLabel: 'Live Demo',
+    link: 'https://java-script-100-problem-f6wy.vercel.app/',
+    demoCodeLabel:'Sourse Code',
+    demoCodeLink: 'https://github.com/CBROY62/JavaScript-100-Problem/tree/main/calculator',
+  },
 ];
 
 export default projects;
