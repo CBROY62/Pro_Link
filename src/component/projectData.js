@@ -82,6 +82,7 @@ const projects = [
   },
 
   // Minor Projects
+  
   {
     id: 7,
     title: 'Tip Calculator',
@@ -186,7 +187,7 @@ const projects = [
     demoCodeLink: 'https://github.com/CBROY62/JavaScript-100-Problem/tree/main/CURD_Operation',
     link: 'https://heroic-cupcake-bd0fb0.netlify.app/',
   },
-  
+
    {
     id: 20,
     title: 'Contact(CRUD)',
