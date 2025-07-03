@@ -127,7 +127,7 @@ const projects = [
     demoCodeLink: 'h',
     link: 'https://cbroy62.github.io/AddToCard/',
   },
-  
+
   {
     id: 15,
     title: 'Calculator.',
@@ -150,6 +150,7 @@ const projects = [
     demoCodeLink: 'https://github.com/CBROY62/To-Do-List/tree/main/tic_toc',
     link: 'https://to-do-list-jade-beta.vercel.app/',
   },
+
   {
     id: 17,
     title: 'Student Marks Calculator Web App.',
@@ -185,6 +186,7 @@ const projects = [
     demoCodeLink: 'https://github.com/CBROY62/JavaScript-100-Problem/tree/main/CURD_Operation',
     link: 'https://heroic-cupcake-bd0fb0.netlify.app/',
   },
+  
    {
     id: 20,
     title: 'Contact(CRUD)',
