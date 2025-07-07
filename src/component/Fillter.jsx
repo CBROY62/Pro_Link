@@ -78,12 +78,13 @@ export default function ProjectFilter() {
       </div>
 
       {/* Projects Grid */}
-      
+
       <div className="project-grid">
         {filteredProjects.map((project) => (
           <ProjectCard
             key={project.id}
             title={project.title}
+            
             description={project.description}
             image={project.image}
             buttonLabel={project.buttonLabel}
