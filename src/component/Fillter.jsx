@@ -64,7 +64,7 @@ export default function ProjectFilter() {
       </marquee>
 
       {/* Filter Buttons */}
-      
+
       <div className="filter-buttons">
         {["all", "minor", "mid", "major"].map((type) => (
           <button
@@ -78,6 +78,7 @@ export default function ProjectFilter() {
       </div>
 
       {/* Projects Grid */}
+      
       <div className="project-grid">
         {filteredProjects.map((project) => (
           <ProjectCard
