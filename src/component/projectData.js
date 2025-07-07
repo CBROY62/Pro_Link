@@ -36,6 +36,7 @@ const projects = [
     demoCodeLink: 'https://github.com/CBROY62/UPSC_Web_page',
     link: 'https://683a8814bc5b926034b1d6f3--bucolic-kashata-ec6f2a.netlify.app/',
   },
+  
   {
     id: 8,
     title: 'Flipkart Clone ',
@@ -47,6 +48,7 @@ const projects = [
     demoCodeLink: 'https://github.com/CBROY62/Flipkart',
     link: 'https://683a8a6df028c826c7bf137b--funny-kleicha-d3a3ca.netlify.app/',
   },
+
   {
     id: 9,
     title: 'Amazon clone ',
@@ -58,6 +60,7 @@ const projects = [
     demoCodeLink: 'https://github.com/CBROY62/Amazon_Clone',
     link: 'https://683a8af3652ef60d2d940f1e--ornate-cascaron-1ccf88.netlify.app/',
   },
+
   {
     id: 10,
     title: 'HRS Website',
@@ -69,6 +72,7 @@ const projects = [
     demoCodeLink: 'https://github.com/CBROY62/HRS_Web',
     link: 'https://683a8716bc5b925efbb1d696--magenta-manatee-b99fa4.netlify.app/',
   },
+
   {
     id: 11,
     title: 'My Portfolio',
