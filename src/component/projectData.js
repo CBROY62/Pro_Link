@@ -72,7 +72,7 @@ const projects = [
     demoCodeLink: 'https://github.com/CBROY62/HRS_Web',
     link: 'https://683a8716bc5b925efbb1d696--magenta-manatee-b99fa4.netlify.app/',
   },
-
+   
   {
     id: 11,
     title: 'My Portfolio',
@@ -83,6 +83,17 @@ const projects = [
     buttonLabel: 'Live Demo',
     demoCodeLink: 'https://github.com/CBROY62/My-Portfolio/tree/main/bhushan',
     link: 'https://face-recognition-system-z1rg.vercel.app/',
+  },
+  {
+    id: 12,
+    title: 'Mass & Dimension Converter Tool',
+    description: 'A self-developed web app for quick unit conversions of mass and length, featuring an interactive chart and multiple tools like Pound to KG, Inch to CM, and more.',
+    type: 'mid',
+    image:  '/images/convertor.png',
+    demoCodeLabel:'Sourse Code',
+    buttonLabel: 'Live Demo',
+    demoCodeLink: 'https://github.com/CBROY62/ConvertorWeight',
+    link: 'https://convertor-weight-lamo.vercel.app/',
   },
 
   // Minor Projects
