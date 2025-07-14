@@ -93,7 +93,7 @@ const projects = [
     demoCodeLabel:'Sourse Code',
     buttonLabel: 'Live Demo',
     demoCodeLink: 'https://github.com/CBROY62/ConvertorWeight',
-    link: 'https://convertor-weight-lamo.vercel.app/',
+    link: 'https://imaginative-unicorn-9f18fa.netlify.app/',
   },
 
   // Minor Projects
