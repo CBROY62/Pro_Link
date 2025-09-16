@@ -29,11 +29,11 @@
 }
 
 .filter-button:hover {
-  background-color: #ccc;
+  background-color: #ccc ;
 }
 
 .filter-button.active {
-  background-color: royalblue;
+  background-color: royalblue ;
   color: white;
 }
 
