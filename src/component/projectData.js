@@ -23,6 +23,17 @@ const projects = [
     demoCodeLink: 'https://github.com/CBROY62/RKSD-COLLEGE',
     link: 'https://rksdpharma.vercel.app/',
   },
+  {
+    id: 3,
+    title: 'Crack Mock',
+    description: 'Access our latest study materials, practice questions, and expert tips',
+    type: 'major',
+    image: '/images/mockIMG.png',
+     demoCodeLabel:'Sourse Code',
+    buttonLabel: 'Live Demo',
+    demoCodeLink: 'https://github.com/CBROY62/mockTest',
+    link: 'https://crackmocktest.web.app/',
+  },
 
   // Mid Projects
   {
